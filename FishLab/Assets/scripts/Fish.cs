@@ -29,7 +29,6 @@ public class Fish : MonoBehaviour {
 	}
 	
 	
-	//overflowing into each other. This is good practice!
 	void SetNewDestination() {
 		SetNewDestination(20f);
 	}
