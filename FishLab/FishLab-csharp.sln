@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{BEAE421A-14A3-4F83-1C11-3F61323D1AB3}") = "Final", "Assembly-CSharp.csproj", "{18A227F1-5C0F-ACA8-E1B1-82377BC58276}"
+Project("{E02081DB-CDFC-4ABF-0F28-C6A83040D69C}") = "FishLab", "Assembly-CSharp-vs.csproj", "{4327EE88-52C2-A27F-FD76-1A85D55BEAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18A227F1-5C0F-ACA8-E1B1-82377BC58276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18A227F1-5C0F-ACA8-E1B1-82377BC58276}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18A227F1-5C0F-ACA8-E1B1-82377BC58276}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18A227F1-5C0F-ACA8-E1B1-82377BC58276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4327EE88-52C2-A27F-FD76-1A85D55BEAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4327EE88-52C2-A27F-FD76-1A85D55BEAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4327EE88-52C2-A27F-FD76-1A85D55BEAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4327EE88-52C2-A27F-FD76-1A85D55BEAF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																GlobalSection(MonoDevelopProperties) = preSolution
+				GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
