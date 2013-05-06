@@ -1,6 +1,6 @@
 //Maya ASCII 2013 scene
 //Name: fishmodel.ma
-//Last modified: Mon, Apr 29, 2013 02:21:15 PM
+//Last modified: Mon, Apr 29, 2013 02:52:26 PM
 //Codeset: UTF-8
 requires maya "2013";
 currentUnit -l centimeter -a degree -t film;
