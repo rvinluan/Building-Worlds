@@ -13,7 +13,8 @@ public class CarController : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		rigidbody.centerOfMass -= new Vector3(0, 2f, 0);
+		//lower the center of mass
+		rigidbody.centerOfMass -= new Vector3(0, 3f, 0);
 	}
 	
 	// Update is called once per frame
@@ -28,13 +29,10 @@ public class CarController : MonoBehaviour {
 		//steering
 		frontleft.steerAngle = steerValue * Input.GetAxis("Horizontal");
 		frontright.steerAngle = steerValue * Input.GetAxis("Horizontal");
-		
-		//adjust slipping
-		/*
-		float slip = (0.01f + 0.022f/(rigidbody.velocity.magnitude+1))*25000;
-		
-		frontleft.sidewaysFriction.stiffness = slip;
-		frontright.sidewaysFriction.stiffness = slip;
-		*/
+	}
+	
+	void FixedUpdate() {
+		Debug.Log ("hey");
+		rigidbody.AddForce(Vector3.down * 3);
 	}
 }
